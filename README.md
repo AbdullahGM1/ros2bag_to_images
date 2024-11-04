@@ -27,7 +27,7 @@ sudo apt install ros-humble-rclpy ros-humble-rosbag2-py ros-humble-cv-bridge pyt
 1. Clone the Repository:
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/yourusername/ros2bag_to_image.git
+git clone https://github.com/AbdullahGM1/ros2bag_to_images.git
 ```
 
 2. Build the Package:
