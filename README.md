@@ -27,7 +27,7 @@ sudo apt install ros-humble-rclpy ros-humble-rosbag2-py ros-humble-cv-bridge pyt
 1. Clone the Repository:
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/yourusername/ros2bag_to_image.git
+git clone https://github.com/AbdullahGM1/ros2bag_to_images.git
 ```
 
 2. Build the Package:
@@ -43,12 +43,9 @@ source ~/ros2_ws/install/setup.bash
 
 ## Uage
 
-1. Edit the Path in `extract_images.py`: Update the `bag_path variable` in `extract_images.py` with the path to your `.db3` file:
-```python
-bag_path = "ros2bag/path/file.db3"
-```
-
-2. Run the Script: Use `ros2` run to execute the extraction:
+1. To extract images from a ROS2 bag file, you can specify the bag file path, topic name, and output directory as command-line arguments:
 ```bash
-ros2 run ros2bag_to_image extract_images
+ros2 run ros2bag_to_image extract_images /path/to/your_bag_file.db3 --topic /your_topic_name --output_dir /path/to/save/images
 ```
+* The script extracts images from the `/your_topic_name` topic in the bag file located at `/path/to/your_bag_file.db3`.
+* Images are saved in `/path/to/save/images` path.
