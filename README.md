@@ -6,6 +6,7 @@
 - Extracts images from a specified topic in ROS2 bag files.
 - Saves images in PNG format with sequential naming.
 - Uses OpenCV and `cv_bridge` to handle and convert image data.
+- Ros2 Humble. 
 
 ## Dependencies
 
