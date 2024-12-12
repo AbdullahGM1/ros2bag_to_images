@@ -34,7 +34,7 @@ git clone https://github.com/AbdullahGM1/ros2bag_to_images.git
 2. Build the Package:
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select ros2bag_to_image
+colcon build --packages-select ros2bag_to_images
 ```
 
 3. Source the Workspace:
