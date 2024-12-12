@@ -4,7 +4,7 @@ package_name = 'ros2bag_to_images'
 
 setup(
     name=package_name,
-    version='1.0.0',
+    version='0.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='AbdullahGM',
-    maintainer_email='agm.musalami@gmail.com',
-    description='Extract Images from Ros2 Humble Bag',
-    license='MIT',
+    maintainer='user',
+    maintainer_email='user@todo.todo',
+    description='TODO: Package description',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
