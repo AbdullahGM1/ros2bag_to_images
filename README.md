@@ -46,7 +46,7 @@ source ~/ros2_ws/install/setup.bash
 
 1. To extract images from a ROS2 bag file, you can specify the bag file path, topic name, and output directory as command-line arguments:
 ```bash
-ros2 run ros2bag_to_image bag_image_extractor /path/to/your_bag_file.db3 --topic /your_topic_name --output_dir /path/to/save/images
+ros2 run ros2bag_to_images bag_image_extractor /path/to/your_bag_file.db3 --topic /your_topic_name --output_dir /path/to/save/images
 ```
 * The script extracts images from the `/your_topic_name` topic in the bag file located at `/path/to/your_bag_file.db3`.
 * Images are saved in `/path/to/save/images` path.
